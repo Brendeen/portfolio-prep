@@ -1,0 +1,66 @@
+body {
+  background-color: aqua;
+  
+}
+
+header {
+  text-align: center;
+  
+}
+
+#brenImg {
+  display: flex;
+  width: 400px;
+  height: auto;
+  border: black solid 4px;
+  border-radius: 10px;
+}
+
+#personalInfo {
+  display: flex;
+
+}
+
+.pTags {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./img/wave\ background.jpeg) ;
+  padding: 30px;
+  border-radius: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+}
+
+
+
+footer {
+  text-align: center;
+  border: black solid 5px;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 50px;
+}
+
+.battleDice {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: auto;
+  height: 200px;
+}
+
+.salmonCookies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: auto;
+  height: 200px;
+}
+
+.oddDuck {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: auto;
+  height: 180px;
+}
